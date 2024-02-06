@@ -4,6 +4,7 @@ import java.io.Serializable;
 import jakarta.persistence.*;
 import java.util.List;
 
+// Este es un nuevo comentario que he creado desde GitHub
 
 /**
  * The persistent class for the libros database table.
@@ -83,6 +84,10 @@ public class Libro implements Serializable {
 		prestamo.setLibro(null);
 
 		return prestamo;
+	}
+
+	public String decirHola(){
+		return "Hola"
 	}
 
 }
