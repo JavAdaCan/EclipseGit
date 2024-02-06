@@ -86,8 +86,9 @@ public class Libro implements Serializable {
 		return prestamo;
 	}
 
-	public String decirHola(){
-		return "Hola"
+	public String decirAdios(){
+		return "Adios";
 	}
+	
 
 }
